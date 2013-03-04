@@ -1,6 +1,6 @@
 # Minimal Theme for Refinery CMS backend v1
 
-The goal of this gem is to provide a clean layout for RefineryCMS admin area.
+A minimal backend theme for RefineryCMS.
 
 ## How to use this with a Refinery CMS project
 
