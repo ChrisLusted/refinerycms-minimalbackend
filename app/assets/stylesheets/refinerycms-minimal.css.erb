@@ -1,0 +1,203 @@
+body{
+  background:#E2E0E6 !important;
+}
+a{
+  color:#5C7DA0;
+}
+a:hover{
+  color:#6AB260;
+}
+/* flash messages */
+.flash_notice, .flash_message {
+  border: 1px solid #7BC1A1;
+  color: #fff;
+  background: 7px 7px no-repeat url(<%= asset_path "refinery/icons/accept.png" %>) #7BC1A1;
+}
+.errorExplanation {
+  background: #DA5B59;
+  border: 1px solid #DA5B59;
+  padding:0px 5px 5px 5px;
+}
+  .errorExplanation p, .errorExplanation li{color:#fff}
+
+/* menu */
+ .jcarousel-clip {
+  background:#282B3F;
+}
+#menu a{
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  background:none;
+  color:#828394;
+  padding: 11px 13px;
+  margin-top: 0px;
+  margin-right:0;
+}
+#menu a.active, #menu a:hover{
+  background:url(<%= asset_path "refinery/nav_inactive_background.png" %>) transparent repeat;
+  color:#fff !important;
+}
+#menu a:hover{
+  color:#282B3F;
+}
+
+/* container */
+#page_container{
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.preview {
+  color: #555;
+}
+#search{
+  width:190px !important;
+}
+
+/* forms */
+
+.field input[type=text], .field input[type=password], .field input[type=number], .field textarea, select {
+  border: 1px solid #999 !important;
+  padding: 0.4% 0.5%;
+  line-height: 20px;
+}
+
+.field select{
+  min-width: 220px;
+  height: 30px;
+}
+
+fieldset{
+  border: 1px solid #ccc;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+legend{
+  font-weight:bold;
+}
+
+/* optional styling for nested fields (cocoon gem) */
+.nested-fields{
+  clear:both;
+}
+.nested-fields .field{
+  float:left;
+  width:220px !important;
+}
+.nested-fields .remover{
+  float:left;
+}
+
+/* editing area */
+
+.form-actions{
+  border-radius:0!important;
+  background:#E2E0E6 !important;
+  border-color:#E2E0E6 !important
+}
+.wym_skin_refinery{
+  background:#E2E0E6;
+  border: 1px solid #E2E0E6;
+}
+.ui-tabs li.ui-state-default{
+  margin-right:0;
+}
+  .ui-tabs .ui-state-default a{
+    border-radius:0!important;
+    background:#fff;
+    color: #555;
+  }
+  .ui-tabs .ui-state-default a:hover, #content .wym_box a:hover, #content .ui-tabs a:hover{
+    background-color:#7BC1A1;
+    color:#fff;
+  }
+  .ui-tabs .ui-state-active a{
+    background:#E2E0E6;  
+    color:#555;
+    padding: 8px 13px;
+    margin-top:6px;
+  }
+  #content .wym_box a, #content .ui-tabs a{
+    border-radius:0!important;
+  }
+
+input.button:hover , a.button:hover, #content a.button:hover{
+  background-color:#444 !important;
+}
+.form-actions a.confirm-delete, #content .form-actions a.confirm-delete {
+  background: #E4635B !important;
+}
+.form-actions a.confirm-delete:hover, #content .form-actions a.confirm-delete:hover {
+  background: #444 !important;
+}
+
+
+/* sidebar*/
+input.button, a.button, #content a.button, span.button-wrapper,  span.button-wrapper input{
+  background:#7BC1A1;
+  border-radius:0!important;
+  padding: 0px 23px 0px 23px !important;
+  font-size: 15px !important;
+  line-height: 28px !important;
+  height: 28px !important;
+/*  text-shadow:1px 1px 0px #5C7DA0;*/
+}
+input.button.close_dialog:hover, a.button.close_dialog:hover, #content a.button.close_dialog:hover, span.button-wrapper.close_dialog:hover{
+  color:#fff !important;
+} 
+
+#actions li a{
+  background-color: #7BC1A1 !important;
+  color:#fff;
+  text-transform:uppercase;
+  border: 1px solid #7BC1A1;
+}
+  #actions li a:hover{
+    background-color:#444 !important;
+    border: 1px solid #444;
+  }
+
+/* dialog boxes */
+.dialog #content {
+  padding: 20px;
+}
+.dialog label.setting_name{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Helvetica Neue';
+}
+.ui-dialog .ui-dialog-titlebar{
+  background:#444
+}
+.ui-dialog{
+  border: 4px solid #444;
+}
+/* upload image dialog */
+.dialog #dialog_menu_left{
+  position: relative;
+  top:0;
+  left:0;
+  float: left;
+  width:20%;
+}
+.dialog #dialog_main{
+  float: left;
+  margin-left: 0;
+  width: 80%;
+}
+.dialog #existing_image_area_content{
+  margin-top:0;
+  
+}
+/* inquiry plugin specific */
+.record .title a{
+  width: 120px;
+  float: left;
+   
+  line-height: 35px;
+  border: none;
+  border-bottom:none !important;
+}
+
+
