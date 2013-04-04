@@ -20,15 +20,36 @@ a:hover{
 }
   .errorExplanation p, .errorExplanation li{color:#fff}
 
+/* top bar */
+#site_bar{
+  background:#22A7DB;
+}
+#editor_switch a, #editor_switch span {
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+}
+#editor_switch a, #editor_switch a:hover {
+  color: white;
+  background: #e7682c;
+  background-image:none;
+  border-bottom: 0px none;
+  border:none;
+}
+#editor_switch a:hover{
+background:#444;  
+}
+
 /* menu */
- .jcarousel-clip {
-  background:#282B3F;
+.jcarousel-clip {
+  background:#33495E;
 }
 #menu a{
+  font-size: 14px;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   background:none;
-  color:#828394;
+  color:#eee;
   padding: 11px 13px;
   margin-top: 0px;
   margin-right:0;
@@ -39,6 +60,9 @@ a:hover{
 }
 #menu a:hover{
   color:#282B3F;
+}
+#menu a#menu_reorder, header #menu a#menu_reorder_done {
+  margin-top: 5px;
 }
 
 /* container */
@@ -88,7 +112,12 @@ legend{
 .nested-fields .remover{
   float:left;
 }
-
+.links{
+  clear:both;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+ 
 /* editing area */
 
 .form-actions{
@@ -153,6 +182,10 @@ input.button.close_dialog:hover, a.button.close_dialog:hover, #content a.button.
   text-transform:uppercase;
   border: 1px solid #7BC1A1;
 }
+.actions a:hover{
+background:none!important;
+}
+
   #actions li a:hover{
     background-color:#444 !important;
     border: 1px solid #444;
@@ -199,5 +232,5 @@ input.button.close_dialog:hover, a.button.close_dialog:hover, #content a.button.
   border: none;
   border-bottom:none !important;
 }
-
+ 
 
