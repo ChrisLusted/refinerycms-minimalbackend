@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'refinerycms-minimalbackend'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.date        = '2013-02-28'
   s.summary     = "A minimal backend for RefineryCMS"
   s.description = "A minimal backend for RefineryCMS 2.0"
