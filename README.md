@@ -2,6 +2,8 @@
 
 A minimal backend theme for RefineryCMS.
 
+![ScreenShot](https://raw.github.com/psousa/refinerycms-minimalbackend/master/preview.png)
+
 ## How to use this with a Refinery CMS project
 
 To set up a Refinery app from scratch, you'll need to install Refinery and create a new app:
@@ -21,5 +23,7 @@ Then, on your /config/initializers/refinery/core settings add:
 ## TODO
 
 Add custom icons.
-Improve consistency.
+Reduce use of !important in CSS.
+Improve documentation inside CSS.
+Improve consistency in screens.
 Fully test on IE.
