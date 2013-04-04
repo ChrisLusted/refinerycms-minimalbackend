@@ -27,3 +27,11 @@ Reduce use of !important in CSS.
 Improve documentation inside CSS.
 Improve consistency in screens.
 Fully test on IE.
+
+## CHANGES
+
+1.0.2
+Improved comments, added more styles.
+
+1.0.1
+Initial version
